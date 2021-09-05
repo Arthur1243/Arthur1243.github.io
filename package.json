@@ -4,7 +4,8 @@
   "description": "Site de Arthur Rios",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Arthur1243/Arthur1243.github.io/issues"
   },
-  "homepage": "https://github.com/Arthur1243/Arthur1243.github.io#readme"
+  "homepage": "https://github.com/Arthur1243/Arthur1243.github.io#readme",
+  "dependencies": {
+    "http-server": "^13.0.1"
+  }
 }
