@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+}
+
+.games-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.games-item {
+    margin-bottom: 15px;
+}
+
+.games-item a {
+    background-color:rgba(248, 211, 0, 0.904);
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.game-box {
+    margin-left: 25px;
+}
