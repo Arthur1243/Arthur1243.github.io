@@ -31,3 +31,14 @@
     color: blanchedalmond;
     flex: 1;
 }
+
+.heder-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nave a {
+    margin: 10px;
+    color: darkred;
+    
+}
