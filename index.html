@@ -23,29 +23,40 @@
       </nav>
     </div>
   </header>
+  <script>
+    function showsection(id) {
+      // aqui é o corpo da funcão
+      const list = document.getElementsByClassName('game-box-section');
+      for (const div of list) {
+        div.style.display = 'none';
+      }
+      const section = document.getElementById(id);
+      section.style.display = 'block';
+    }
+  </script>
   <div class="main content">
     <div class="games-menu">
       <ul class="games-list">
         <li class="games-item">
-          <a href="#snake">Snake</a>
+          <a href="#" onclick="showsection('snake')">Snake</a>
         </li>
 
         <li class="games-item">
-          <a href="#pong">Pong</a>
+          <a href="#" onclick="showsection('pong')">Pong</a>
         </li>
 
         <li class="games-item">
-          <a href="#tetris">Tetris</a>
+          <a href="#" onclick="showsection('tetris')">Tetris</a>
         </li>
 
         <li class="games-item">
-          <a href="#arkanoid">Arkanoid</a>
+          <a href="#" onclick="showsection('arkanoid')">Arkanoid</a>
         </li>
       </ul>
     </div>
 
     <div class="game-box">
-      <section id="snake">
+      <section class="game-box-section" id="snake">
         <h2>
           Snake
         </h2>
@@ -56,7 +67,7 @@
         </p>
       </section>
 
-      <section id="pong">
+      <section class="game-box-section" id="pong">
         <h2>
           Pong
         </h2>
@@ -67,7 +78,7 @@
         </p>
       </section>
 
-      <section id="tetris">
+      <section class="game-box-section" id="tetris">
         <h2>
           Tetris
         </h2>
@@ -78,7 +89,7 @@
         </p>
       </section>
 
-      <section id="arkanoid">
+      <section class="game-box-section" id="arkanoid">
         <h2>
           Arkanoid
         </h2>

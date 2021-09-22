@@ -37,6 +37,14 @@ img {
     padding: 15px;
 }
 
+.game-box-section {
+    display: none;
+}
+
+.game-box-section.target {
+    display: block;
+} 
+
 .heder-content {
     display: flex;
     justify-content: space-between;
