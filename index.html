@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Arthur Games</title>
   <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/slideshow.css" />
 </head>
 
 <body>
@@ -61,7 +62,7 @@
           Snake
         </h2>
         <img src="https://files.tecnoblog.net/wp-content/uploads/2012/06/snake-2.jpg"
-        alt="Jogo Snake feito em JavaScript">
+          alt="Jogo Snake feito em JavaScript">
         <p>
           Jogo tradicional da cobrinha que aumenta de tamanho cada vez que se alimenta.
         </p>
@@ -71,8 +72,9 @@
         <h2>
           Pong
         </h2>
-        <img src="http://s2.glbimg.com/qQzuGyHk3arsrGf4PMi3n9q4QFg=/695x0/s.glbimg.com/po/tt2/f/original/2016/03/02/pong2_1627232a.jpg"
-        alt="Jogo Pong feito em JavaScript"> 
+        <img
+          src="http://s2.glbimg.com/qQzuGyHk3arsrGf4PMi3n9q4QFg=/695x0/s.glbimg.com/po/tt2/f/original/2016/03/02/pong2_1627232a.jpg"
+          alt="Jogo Pong feito em JavaScript">
         <p>
           O primeiro jogo de videogame feito para ser comercializado.
         </p>
@@ -82,10 +84,10 @@
         <h2>
           Tetris
         </h2>
-        <img src="https://cdn.wallpapersafari.com/48/92/xj9FPl.jpg"
-        alt="Jogo Tetris feito em JavaScript">
+        <img src="https://cdn.wallpapersafari.com/48/92/xj9FPl.jpg" alt="Jogo Tetris feito em JavaScript">
         <p>
-          Tetris é um jogo electrônico muito popular, desenvolvido por Alexey Pajitnov, Dmitry Pavlovsky e Vadim Gerasimov, e lançado em junho de 1984.
+          Tetris é um jogo electrônico muito popular, desenvolvido por Alexey Pajitnov, Dmitry Pavlovsky e Vadim
+          Gerasimov, e lançado em junho de 1984.
         </p>
       </section>
 
@@ -94,7 +96,7 @@
           Arkanoid
         </h2>
         <img src="https://gamefabrique.com/storage/screenshots/nes/arkanoid-04.png"
-        alt="Jogo Arkanoid feito em JavaScript">
+          alt="Jogo Arkanoid feito em JavaScript">
         <p>
           Arkanoid é um jogo eletrônico para arcade desenvolvido pela Taito em 1986
         </p>
@@ -102,6 +104,47 @@
     </div>
   </div>
 
+  <div class="slideshow-container content">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+      <div class="text">Imagem de uma estrada em montanhas</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
+      <div class="text">Imagem de uma floresta em cima de uma montanha</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
+      <div class="text">Imagem de montanhas congeladas</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" style="width:100%">
+      <div class="text">Imagem de uma aurora boreal</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+  <script src="./js/slideshow.js"></script>
 </body>
 
 </html>
