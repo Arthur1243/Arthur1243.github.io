@@ -22,11 +22,21 @@ img {
 }
 
 .games-item a {
-    background-color:rgba(248, 211, 0, 0.904);
-    color: #000;
+    background-color: #6cc45a;
+    color: #000000; /* texto branco */
     text-decoration: none;
     display: block;
-    padding: 10px;
+    padding: 12px;
+    margin-bottom: 10px; /* espaço entre os botões */
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s; /* animação suave */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* sombra leve */
+}
+
+.games-item a:hover {
+    background-color: #55a049; /* muda cor no hover */
+    transform: scale(1.05); /* aumenta levemente ao passar o mouse */
 }
 
 .game-box {
